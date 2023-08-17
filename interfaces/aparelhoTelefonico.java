@@ -5,3 +5,4 @@ public interface aparelhoTelefonico {
     public void atender();
     public void iniciarCorreioDeVoz();
 }
+
