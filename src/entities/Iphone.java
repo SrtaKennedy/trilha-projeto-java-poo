@@ -7,8 +7,8 @@ package entities;
 public class Iphone implements aparelhoTelefonico, navegadorNaInternet, reprodutorDeMusica {
 
     @Override
-    public void tocar(String musica) {
-        System.out.println("Playing " + musica);
+    public void tocar(String Musica) {
+        System.out.println("Playing " + Musica);
 }
 
     @Override
@@ -17,8 +17,8 @@ public class Iphone implements aparelhoTelefonico, navegadorNaInternet, reprodut
 }
 
     @Override
-    public void selecionarMusica(String musica) {
-        System.out.println("Playing " + musica);
+    public void selecionarMusica(String Musica) {
+        System.out.println("Playing " + Musica);
 }
 
     @Override
@@ -27,7 +27,7 @@ public class Iphone implements aparelhoTelefonico, navegadorNaInternet, reprodut
 }
 
     @Override
-    public void AddNovaAba() {
+    public void AdicionarNovaAba() {
         System.out.println("New tab");
 }
 

@@ -4,7 +4,7 @@ public class main {
     public static void main(String[] args) {
     Iphone x = new Iphone();
 
-    x.AddNovaAba();
+    x.AdicionarNovaAba();
     x.ExibirPagina();
 
     x.iniciarCorreioDeVoz();
