@@ -7,7 +7,7 @@ public class main {
     x.AddNovaAba();
     x.ExibirPagina();
 
-    x.IniciarCorreioDeVoz();
-    x.Atender();
+    x.iniciarCorreioDeVoz();
+    x.atender();
     }
 }
